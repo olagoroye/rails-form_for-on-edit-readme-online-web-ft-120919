@@ -28,4 +28,4 @@ class PostsController < ApplicationController
 	  @post.update(params.require(:post).permit(:title, :description))
 	  redirect_to post_path(@post)
 	end
-end
+en
